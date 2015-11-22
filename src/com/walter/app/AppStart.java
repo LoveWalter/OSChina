@@ -35,7 +35,6 @@ public class AppStart extends Activity {
 		aa.setDuration(800);
 		view.startAnimation(aa);
 		aa.setAnimationListener(new AnimationListener() {
-
 			@Override
 			public void onAnimationStart(Animation arg0) {
 
@@ -48,7 +47,7 @@ public class AppStart extends Activity {
 
 			@Override
 			public void onAnimationEnd(Animation arg0) {
-				// redirectTo();
+				 redirectTo();
 			}
 		});
 	}
